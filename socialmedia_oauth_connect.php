@@ -118,7 +118,7 @@ class socialmedia_oauth_connect
 				$this->dialogUrl = 'https://www.facebook.com/dialog/oauth?client_id='.$this->client_id.'&redirect_uri='.$this->redirect_uri.'&scope='.$this->scope.'&state='.$this->state;
 				$this->accessTokenUrl = 'https://graph.facebook.com/oauth/access_token';
 				$this->responseType="code";
-				$this->userProfileUrl = "https://graph.connect.facebook.com/me/?";
+				$this->userProfileUrl = "https://graph.facebook.com/me/?";
 				$this->header="";
 				break;
 				
